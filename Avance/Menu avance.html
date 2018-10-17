@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<style>
+*{margin: 0px 0px 0px 0px}
+#container{
+    width:1420px;
+    height: 1100px;
+}
+#c1{
+    float:left;
+    width:355px;
+    background-color: #006622;
+    height:65px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial;
+    color:white;
+
+}
+#c2{
+    float:left;
+    width:355px;
+    background-color: #734d26;
+    height:65px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    color:white;
+}
+#c3{
+    float:left;
+    width:355px;
+    background-color: #000066;
+    height:65px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    color:white;
+
+}
+#c4{
+    float:left;
+    width:355px;
+    background-color:#800000;
+    height:65px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    color:white;
+}
+
+    #baner{
+        width: 1420px;
+        height: 500px;;
+    }
+
+    #centro{
+        width:1420px;
+        height:80px;
+    }
+        #d1{
+            float:left;
+            width:473px;
+            background-color: orange;
+            height:490px;
+            text-align: center;
+            font-size: 35px;
+            font-family: Calibri;
+        }
+        #d2{
+            float:left;
+            width:473px;
+            background-color: #cccc00;
+            height:490px;
+            text-align: center;
+            font-size: 35px;
+            font-family: Calibri;
+        }
+        #d3{
+            float:left;
+            width:473px;
+            background-color: #ff5c33;
+            height:490px;
+            text-align: center;
+            font-size: 35px;
+            font-family: Calibri;
+        }
+#pie{
+    height:60px;
+    background-color:black;
+    clear: both;
+}
+#foto{
+    width:220px;
+    height:170px;
+}
+#texto{
+    font-size: 25px;
+
+}
+#boton{
+    background-color: #006622;
+    border-color: #006622;
+    width:80px;
+    color: white;
+}
+
+
+</style>
+
+<body>
+<div id="container">
+        <div id="c1">Menú
+
+        <select id="boton" onchange="go(this.value);">
+
+        <option value="AQUIVAPAGINA.HTML" style="color:white; font-size:25px">Toppings</option>
+ 
+        </select>
+    </div>
+
+
+    <div id="c2">Información empresarial </div>
+    <div id="c3">Información de contacto</div>
+    <div id="c4">Pedidos </div>
+
+        <div id="baner"> <img src="banpizz.jpg" id="baner">
+
+        <div id="centro">
+
+            <div id="d1">
+                    <br><img src="Pizzar.jpg" id="foto">
+                    <br><p id="texto">Prueba nuestra deliciosa Pizza orilla rellena
+                    de tocino, queso y otros ingredientes especiales.
+                    Ademas contamos con distintas variedades para que
+                    escojas la que mas te gusta!</p>
+                    <h1 style="color:black">$130</h1>
+            </div>
+
+            <div id="d2">
+                    <br><img src="spa.jpg" id="foto">
+                    <br><p id="texto">Como topping y a precio especial lanzate por nuestra especialidad! El Spaghetti
+                        es una de nuestras preferidas. Contamos con distintas salsas
+                        y otros ingredientes adicionales para que lo incluyas en tu platillo</p>
+                    <h1 style="color:black">$90</h1>
+            </div>
+
+            <div id="d3">
+                   <br><img src="pizza.jpg" id="foto">
+                    <br><p id="texto">Atrevete y pide nuestra nueva y deliciosa pizza!
+                        Tenemos diferentes tipos para que escojas tu favorita,
+                        ademas que puedes combinar los condimentos que tenemos
+                        para que crees tu pizza ideal!</p>
+                    <h1 style="color:black">$119</h1>
+            </div>
+        </div>
+    <div id="pie"></div>
+</div>
+</body>
+</html>

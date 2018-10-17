@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Ejemplo sencillo de contador</title>
+</head>
+<body>
+	<h2>Contador de click en boton sencillo</h2>
+	
+	<script>
+	var var_contador=0;
+
+	function f1(){
+	var_contador = var_contador+1; 
+	var valor_contador = document.getElementById("contador2");
+	valor_contador.textContent=var_contador;
+	}
+	</script>
+
+	<form> 
+	<input type="button" id="contador" value="contador" onclick="f1()">
+	</form> 
+
+	<p id="contador2">0</p>
+</body>
+</html>
