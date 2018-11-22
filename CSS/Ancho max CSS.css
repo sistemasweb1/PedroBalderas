@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.ex1 {
+    width: 800px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+.ex2 {
+    max-width:800px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+</style>
+</head>
+<body>
+
+<center><div class="ex1">Elemento de tamaño definido sin maximo definido</div></center>
+<br>
+
+<center><div class="ex2">Este elemento se ajusta al tamaño de la reduccion de la pagina</div></center>
+
+
+
+</body>
+</html>
